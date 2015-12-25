@@ -49,6 +49,8 @@ function move(e) {
     oLis[this.preSIndex].className = "zIndex";
     oLis[this.preSIndex].style.display="block";
     oLis[cur].style.webkitTransform = "scale("+(1-scalePos)+") translate(0,"+changePos+"px)";
+
+
 }
 function end(e) {
     oLis[this.preSIndex].style.webkitTransform ="translate(0,0)";
