@@ -42,12 +42,16 @@ html,body{
     z-index: 111;
 }
 .zIndex .a4 p{
+
+
     margin-top: 50px;
     font-size:90px;
     text-align: center;
     color: #fff;
 }
 .a1 p{
+    margin-left: 50px;
+    width: 530px;
     margin-top: 80px;
     font-size: 30px;
     color: #fff;
@@ -56,15 +60,19 @@ html,body{
 
 }
 .a3 p{
+    margin-left: 50px;
+    width: 530px;
     font-size: 30px;
     color: tomato;
     margin-top: 20px;
     line-height: 35px;
 }
 .a2 p{
+    margin-left: 50px;
+    width: 530px;
     font-size: 30px;
     color: aliceblue;
-    margin-top: 100px;
+    margin-top: 80px;
     line-height: 90px;
 }
 
