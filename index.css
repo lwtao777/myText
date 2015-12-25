@@ -93,13 +93,16 @@ html,body{
 }
 .a1 p:nth-child(odd){
     -webkit-transform: translate(-500px,0);
+    transform: translate(-500px,0);
 }
 .a1 p:nth-child(even){
     -webkit-transform: translate(500px,0);
+    transform: translate(500px,0);
 }
 
 #a1 p{
     -webkit-transform: translate(0,0);
+    transform: translate(0,0);
     -webkit-transition: 1s;
 
 }
@@ -107,9 +110,11 @@ html,body{
     position: absolute;
     top: -50px;
     -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
 }
 #a2 p{
     -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
     -webkit-transition:all 1s;
 }
 .a3 {
@@ -117,6 +122,7 @@ html,body{
 }
 #a3{
     -webkit-transform: rotateY(720deg);
+    transform: rotateY(720deg);
     -webkit-transition:1s;
 }
 
